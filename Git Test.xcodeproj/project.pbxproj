@@ -21,7 +21,7 @@
 		E4FCEE30198EA258002ED67A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FCEE12198EA258002ED67A /* UIKit.framework */; };
 		E4FCEE38198EA258002ED67A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4FCEE36198EA258002ED67A /* InfoPlist.strings */; };
 		E4FCEE3A198EA258002ED67A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FCEE39198EA258002ED67A /* Git_TestTests.m */; };
-		E4FCEE45198EA711002ED67A /* PMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FCEE44198EA711002ED67A /* PMTest.m */; };
+		E4FCEE48198EAC41002ED67A /* PMTester.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FCEE47198EAC41002ED67A /* PMTester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		E4FCEE35198EA258002ED67A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E4FCEE37198EA258002ED67A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4FCEE39198EA258002ED67A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		E4FCEE43198EA711002ED67A /* PMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTest.h; sourceTree = "<group>"; };
-		E4FCEE44198EA711002ED67A /* PMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTest.m; sourceTree = "<group>"; };
+		E4FCEE46198EAC40002ED67A /* PMTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTester.h; sourceTree = "<group>"; };
+		E4FCEE47198EAC41002ED67A /* PMTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				E4FCEE20198EA258002ED67A /* Main.storyboard */,
 				E4FCEE23198EA258002ED67A /* PMViewController.h */,
 				E4FCEE24198EA258002ED67A /* PMViewController.m */,
-				E4FCEE43198EA711002ED67A /* PMTest.h */,
-				E4FCEE44198EA711002ED67A /* PMTest.m */,
+				E4FCEE46198EAC40002ED67A /* PMTester.h */,
+				E4FCEE47198EAC41002ED67A /* PMTester.m */,
 				E4FCEE26198EA258002ED67A /* Images.xcassets */,
 				E4FCEE15198EA258002ED67A /* Supporting Files */,
 			);
@@ -255,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FCEE45198EA711002ED67A /* PMTest.m in Sources */,
 				E4FCEE1B198EA258002ED67A /* main.m in Sources */,
+				E4FCEE48198EAC41002ED67A /* PMTester.m in Sources */,
 				E4FCEE25198EA258002ED67A /* PMViewController.m in Sources */,
 				E4FCEE1F198EA258002ED67A /* PMAppDelegate.m in Sources */,
 			);

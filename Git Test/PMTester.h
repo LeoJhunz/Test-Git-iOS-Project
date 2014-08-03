@@ -1,5 +1,5 @@
 //
-//  PMTest.h
+//  PMTester.h
 //  Git Test
 //
 //  Created by Leo Cawit Jr. on 8/4/14.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PMTest : NSObject
+@interface PMTester : NSObject
 
 @end
